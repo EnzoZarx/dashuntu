@@ -1,0 +1,27 @@
+{
+  "name": "dashuntu",
+  "version": "1.0.0",
+  "description": "Ubuntu Server | Health and Network Monitoring",
+  "main": "main.js",
+  "scripts": {
+    "test": "dashuntu-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoZarx/dashuntu.git"
+  },
+  "keywords": [
+    "dashboard",
+    "monitoring",
+    "ubuntu"
+  ],
+  "author": "EnzoZarx, ReyFyllen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoZarx/dashuntu/issues"
+  },
+  "homepage": "https://github.com/EnzoZarx/dashuntu#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
