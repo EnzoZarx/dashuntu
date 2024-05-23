@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/EnzoZarx/dashuntu#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "systeminformation": "^5.22.9"
   }
 }
