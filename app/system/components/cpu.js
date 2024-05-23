@@ -1,5 +1,9 @@
-import si from './library.js'
+import {si} from '../../library.js'
 
-let cpu = {
+si.cpu().then(data => {
+    cpu.brand = data.brand
+})
+
+export let cpu = {
     brand:""
 }

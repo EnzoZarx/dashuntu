@@ -1,15 +1,8 @@
-import si from './library.js'
+import { cpu } from './system/components/cpu.js'
 const express = require('express')
 const app = express()
 
 let port = 3000
-let cpu = {
-  brand:""
-}
-
-si.cpu().then(data => {
-  cpu.brand = data.brand
-})
 
 app.get('/', (req, res) => {
   res.send(String(cpu.brand))
