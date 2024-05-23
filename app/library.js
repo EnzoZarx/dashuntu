@@ -1,1 +1,1 @@
-const si = require('systeminformation')
+export const si = require('systeminformation')
