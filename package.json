@@ -2,9 +2,11 @@
   "name": "dashuntu",
   "version": "1.0.0",
   "description": "Ubuntu Server | Health and Network Monitoring",
-  "main": "main.js",
+  "private": true,
   "scripts": {
-    "test": "dashuntu-test"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=dashuntu:* npm run devstart"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,15 @@
   },
   "homepage": "https://github.com/EnzoZarx/dashuntu#readme",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "express": "^4.19.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.3",
     "systeminformation": "^5.22.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
   }
 }
